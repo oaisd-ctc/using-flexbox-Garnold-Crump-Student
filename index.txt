@@ -1,0 +1,11 @@
+FlexBox
+1. display: flex
+2.flex-direction
+3.justify-content
+4.align-items - https://www.w3schools.com/css/css3_flexbox.asp
+
+
+Pseudo Classes
+1. active
+2. hover
+3. focus - https://www.w3schools.com/css/css_pseudo_classes.asp#gsc.tab=0

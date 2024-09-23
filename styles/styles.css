@@ -1,0 +1,100 @@
+h1 {
+    text-align: center;
+}
+
+html {
+    background-color: black;
+}
+
+body {
+    color: white;
+}
+
+div {
+    color: black;
+}
+/*centered the content added the flex directon to be a row and the transition takes 2 seconds*/
+.flex-container {
+    display: flex;
+    background-color: lightblue;
+    justify-content: center;
+    flex-direction: row;
+    transition-duration: 2s;
+}
+
+.flex-container>div {
+    background-color: #c00707;
+    margin: 15px;
+    padding: 60px;
+    font-size: 30px;
+    align-items: center;
+}
+/*made it for phones to view the page better when screen is a smaller size*/
+@media (max-width: 800px) {
+    .flex-container {
+        flex-direction: column;
+    }
+}
+
+.flex {
+    display: flex;
+    background-color: wheat;
+    height: 400px;
+    width: 100%;
+    justify-content: center;
+}
+
+.flex>div {
+    background-color: green;
+    margin: 15px;
+    height: 200px;
+    width: 200px;
+    align-items: center;
+}
+
+.flex {
+    display: flex;
+    background-color: wheat;
+    height: 400px;
+    width: 100%;
+    
+}
+
+.p>div {
+    background-color: purple;
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+    align-items: center;
+}
+
+.p {
+    display: flex;
+    background-color: orange;
+    height: 400px;
+    width: 100%;
+    margin: 15px;
+    font-size: 30px;
+    justify-content: center;
+    
+}
+
+/*All odds background color yellow and transition duration takes 2 seconds*/
+.odd {
+    background-color: yellow;
+    transition-duration: 2s;
+}
+
+/* Added a psuedo class that switch all odd number background green and text purple when hovered over. */
+.odd:hover {
+    background-color: green;
+    color: red;
+}
+/* a active link to w3schools*/
+a:active {background-color: white}
+.even:hover {background-color: white;
+text-align: center;}
+/*when clicking the search it focused the text bar making the width to 1000 pixels*/
+input[type="text"]:focus {
+    width: 1000px;
+  }
